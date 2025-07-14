@@ -1,0 +1,141 @@
+/* Reset some defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+.container 
+{
+  max-width: 142rem;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+/* Headings */
+h1 {
+  font-size: 2em;       /* 32px */
+  font-weight: bold;
+  margin: 0.67em 0;     /* approx 21px top/bottom */
+}
+
+h2 {
+  font-size: 1.5em;     /* 24px */
+  font-weight: bold;
+  margin: 0.75em 0;
+}
+
+h3 {
+  font-size: 1.17em;    /* 18.7px */
+  font-weight: bold;
+  margin: 0.83em 0;
+}
+
+/* Paragraph */
+p {
+  margin: 1em 0;
+}
+
+/* Input field */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  border-radius: 4px;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 0 3px rgba(100, 150, 255, 0.3);
+}
+
+/* Buttons */
+button
+{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+   padding: 15px 20px;
+  border: none;
+   font-size: 16px;
+}
+
+/* Lists */
+ul,
+ol {
+  margin: 1em 0;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Links */
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.checkList {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+    text-decoration-color: red;
+}
+
+.notCheckList {
+  text-decoration: none;
+}
+
+
+
+/* todo practice css */
+ul.todo-container li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+ul.todo-container li input {
+    width: 20px;
+    height: 16px;
+}
+
+ul.todo-container li svg
+{
+  font-size: 20px;
+}
+
+
+.remove 
+{
+  background-color: red;
+}
+
+.remove-icon
+{
+  padding: 3px 5px;
+  background-color: red;
+}
