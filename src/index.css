@@ -17,6 +17,7 @@ body {
   max-width: 142rem;
   margin: 0 auto;
   padding: 50px;
+  text-align: center;
 }
 
 
@@ -116,6 +117,7 @@ ul.todo-container li {
     gap: 20px;
     font-size: 22px;
     text-transform: capitalize;
+    justify-content: start;
 }
 
 ul.todo-container li input {
@@ -132,10 +134,15 @@ ul.todo-container li svg
 .remove 
 {
   background-color: red;
+  margin-top: 30px;
 }
 
 .remove-icon
 {
   padding: 3px 5px;
   background-color: red;
+}
+ul.todo-container {
+    width: 28%;
+    margin: auto;
 }
